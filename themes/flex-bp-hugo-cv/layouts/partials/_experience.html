@@ -1,0 +1,41 @@
+{{ $data := (.Scratch.Get "content").Experience }}
+{{ with $data }}
+<section id="section-{{ .Title | urlize }}">
+    <h2><i class="{{ .Icon }}"></i> {{ .Title }}</h2>
+    {{ range $data.Sections }}
+    <div class="innerContainer">
+        <h3 class="innerLeft">{{ .StartDate }}<br />-<br /> {{ .EndDate }}</h3>
+        <div class="innerRight">
+            <h4>{{ .Name }}</h4>
+            <p>
+                {{ $photoimg := resources.Get .Logo }}
+                {{ $alt := "Photo" }}
+                <a href="{{ .Website }}" target="_blank" rel="noopener noreferrer">
+                    {{ with $photoimg }}
+                    {{ if gt $photoimg.Width 500 }}
+                    {{ $image := $photoimg.Resize "320x" }}
+                    <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}"
+                        alt="{{ $alt }}" /></a>
+                {{ else }}
+
+                <img src="{{ $photoimg.RelPermalink }}" width="{{ $photoimg.Width }}" height="{{ $photoimg.Height }}"
+                    alt="{{ $alt }}" /></a>
+
+                {{ end }}
+                {{else}}
+                {{ .Empolyer }}</a>
+                {{end}}
+            </p>
+            {{ range .Details }}
+            <p>• {{ . }}</p>
+            {{ end }}
+            <p>
+                {{ range .Skills }}
+                <span class="tag">{{ . }}</span>
+                {{ end }}
+            </p>
+        </div>
+    </div>
+    {{ end }}
+</section>
+{{ end }}
