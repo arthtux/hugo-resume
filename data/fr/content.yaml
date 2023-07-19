@@ -1,0 +1,264 @@
+PersonalData:
+  Title: Profile
+  Icon: fas fa-user
+  Suffix: "- CV"
+  Name: Arthur Deschamps
+  CurrentWorkplace: Lead DevOps chez Decathlon Canada
+  Contacts:
+    - Icon: fas fa-user
+      Name: Nom
+      Value: Arthur Deschamps
+    - Icon: fas fa-map-marker-alt
+      Name: Adresse
+      Value: 29 Rue le Renfort J2W 3C7 Saint-Jean-sur-Richelieu, QC, CANADA
+    - Icon: fas fa-mobile-alt
+      Name: Mobile
+      Value: +1 438 390-2305
+    - Icon: fas fa-envelope
+      Name: Courriel
+      Value: descharthur@gmail.com
+    - Icon: fas fa-globe
+      Name: Site Web
+      Value: https://deschamps.xyz
+    - Icon: far fa-calendar-alt
+      Name: Age
+      Value: 35 ans
+
+BriefProfile:
+  Title: A propos
+  Icon: fas fa-th-list
+  Sections:
+    - Name: Strengths
+      Items:
+        - Strong bite
+        - Fast sprinter
+        - Great jumping power
+    - Name: Skills
+      Items:
+        - Rescue people
+        - Eating
+    - Name: Certifications
+      Items:
+        - Bodyguard
+        - Security Officer
+
+Experience:
+  Title: Expériences
+  Icon: fas fa-briefcase
+  Sections:
+    - Name: Lead DevOps 
+      Empolyer: Decathlon Canada
+      Logo: logos/decathlon.webp
+      Website: https://www.decathlon.ca/fr
+      StartDate: Septembre 2018
+      EndDate: Today
+      Details:
+        - Leader Infrastructure Cloud Canada.
+        - Leader DevOps Commerce Electronique.
+        - Referent Cloud pour les ressources au Canada.
+        - Participation a la refonte de l’architecture Cloud Decathlon Monde.
+        - Gestion de l’infrastructure pour le site de E-Commerce.
+        - Mise en place du Monitoring.
+        - Gestion des environnements Cloud (AWS, GCP).
+        - Industrialisation des déploiements pour le site de E-Commerce.
+        - Mise en place de l’infastructure as code.
+        - Mise en place du provisionnent de nouvelles instances.
+        - Formation des différents Pays Decathlon United pour leur site de E-Commerce.
+        - Participation a la mise en place de l’informatique pour les Magasin physique.
+        - Referent Informatique pour le Magasin de Québec.
+      Skills: ["Terraform", "Github-Action", "Github", "SpringBoot", "Datadog", "FluxCD", "Network", "Google Cloud Platform", "Amazon Web Services", "NodeJS", "Docker", "Colima", "CentOS", "Kubernetes", "GKE", "Gnu/Linux", "MacOS", "Redis", "PostgresSQL", "PHP", "MySQL", "CloudFlare", "Imperva", "Kafka"]
+
+    - Name: Lead DevOps
+      Empolyer: Koolicar/OpenFleet
+      Logo: logos/openfleet.webp
+      Website: https://www.openfleet.com/
+      StartDate: Décembre 2016
+      EndDate: Aout 2018
+      Details:
+        - Mise en place de la gestion de configuration.
+        - Mise en place d'un outil de monitoring.
+        - Mise en place d'une gestion de log.
+        - Sécurisation des environments. 
+        - Aide au développeurs. 
+        - Gestion des environments AWS. 
+        - Mise en place du réseau par infra as code (saltstack). 
+        - Gestion des outils interne. 
+        - Déploiement d'outils interne. 
+        - Upgrade des systèmes.
+        - Création de nouveaux environment.
+        - Intégration de docker.
+        - Création et gestion de la CI
+      Skills: ["SaltStack", "Jenkins", "RubyOnRails", "Python", "Redis", "Shinken", "Grafana", "Telegraf", "InfluxDB", "Nginx", "Postgresql", "CentOS", "Ubuntu", "Gnu/Linux", "Amazon Web Services", "Elixir", "RabbitMQ", "Mosquitto"]
+
+    - Name: DevOps
+      Empolyer: RodeoFX
+      Logo: logos/rodeofx.webp
+      Website: https://www.rodeofx.com/fr
+      StartDate: Mai 2016
+      EndDate: Décembre 2016
+      Details:
+        - Gestion du Parc informatique (1200 Machines). 
+        - Gestion des configurations (Saltstack). 
+        - Gestion du cloud.
+        - Support des développeurs et des artistes.
+        - Automatisation des taches récurrentes.
+      Skills: ["Google Cloud Platform", "SaltStack", "Python", "CentOS", "Gnu/Linux", "Grafana", "Telegraf", "InfluxDB", "MySQL"]
+    
+    - Name: Administrateur Système Linux
+      Empolyer: Tink
+      Logo: logos/tink.webp
+      Website: https://www.tink.ca/
+      StartDate: Janvier 2016
+      EndDate: Mai 2016
+      Details:
+        - Gestion du déploiement des sites de client. 
+        - Gestion des infrastructures client. 
+        - Installation des services. 
+        - Déploiement de la productions.
+        - Assistance des Développeurs. 
+        - Installation de service
+        - Maintenance des infrastructures.
+      Skills: ["Puppet", "CentOS", "VMWare", "Windows", "Gnu/Linux", "Fedora", "MySQL", "Nginx", "PHP"]
+
+    - Name: Administrateur Système Linux
+      Empolyer: Savoir-Faire Linux
+      Logo: logos/savoirfairelinux.webp
+      Website: https://savoirfairelinux.com/fr
+      StartDate: Juin 2014
+      EndDate: Janvier 2016
+      Details:
+        - Migration de Nagios vers Shinken. (Monitoring)
+        - Création de plugin Shinken (Monitoring - Développement Python)
+        - Migration du site de TFO vers AWS
+        - Configuration de serveurs via Puppet.
+        - Support aux utilisateur. 
+        - Mission de 1ans - Analyste d'application web pour le Compte de la Société de Transport de Montréal.
+        - Test de charge pour le site https://opusenligne.ca/
+        - Monitoring du site https://opusenligne.ca/
+        - Lancement du site https://opusenligne.ca/ 
+      Skills: ["Puppet", "CentOS", "Debian", "Ubuntu", "Shinken", "Kernel Linux", "Lifefray", "Alfrsco", "CUPS", "Drupal", "Qemu", "Gnu/Linux", "Fedora", "MySQL", "Nginx", "Apache", "PHP"]
+
+    - Name: Administrateur Système Linux
+      Empolyer: Savoir-Faire Linux
+      Logo: logos/savoirfairelinux.webp
+      Website: https://savoirfairelinux.com/fr
+      StartDate: Aout 2013
+      EndDate: Juin 2014
+      Details:
+        - Migration de Nagios vers Shinken. (Monitoring)
+        - Création de plugin Shinken (Monitoring - Développement Python)
+        - Migration du site de TFO vers AWS
+        - Configuration de serveurs via Puppet.
+        - Support aux utilisateur. 
+        - Mission de 1ans - Analyste d'application web pour le Compte de la Société de Transport de Montréal.
+        - Test de charge pour le site https://opusenligne.ca/
+        - Monitoring du site https://opusenligne.ca/
+        - Lancement du site https://opusenligne.ca/ 
+      Skills: ["Python", "Ubuntu", "ArchLinux", "Django", "Flask", "Plone", "MySQL", "Apache", "Fedora", "Drupal", "Qemu", "Gnu/Linux", "Fedora", "MySQL", "Nginx", "Apache", "PHP"]
+
+    - Name: Administrateur Système
+      Empolyer: Absystech
+      Logo: logos/absystech.webp
+      Website: https://www.absystech.fr/
+      StartDate: Mai 2012
+      EndDate: Aout 2013
+      Details:
+        - Support de niveau 1 pour des entreprises
+        - Migration de Foret Active Directory 2003 -> 2008 R2
+        - Installation de Parc Informatique
+        - Installation d'imprimantes
+        - Gestion de backup
+        - Monitoring Nagios
+        - Gestion de server sous Gentoo
+        - Montage de Micro PC
+      Skills: ["Windows", "Gentoo", "ArchLinux", "Nagios", "Apache", "Active Directory", "Asterisk"]
+
+AcademicEducation:
+  Title: Scolarité
+  Icon: fas fa-university
+  Sections:
+    - Name: EPITECH
+      Organisation: École pour l'informatique et les nouvelles technologies
+      Website: https://www.epitech.eu/fr/
+      StartDate: Octobre 2009
+      EndDate: Juin 2013
+      Qualification: Niveau 1 Informatique
+      projets:
+        - Minishell
+        - Corwar
+        - Raytracer
+        - Serveur Web
+        - ...
+      technologies:
+        - C++
+        - C
+        - C#
+        - Python
+        - FreeBSD
+        - Ubuntu
+        - Fedora
+
+    - Name: Brevet Technicien Supérieur - Systèmes électroniques
+      Organisation: Éducation Nationnal Francaise
+      Website: https://fr.wikipedia.org/wiki/Brevet_de_technicien_sup%C3%A9rieur_-_Syst%C3%A8mes_%C3%A9lectroniques
+      StartDate: Septembre 2007
+      EndDate: Juin 2009
+      Qualification: Brevet Technicien Supérieur
+      projets:
+        - Detection d'image dans les assenseurs
+
+    - Name:  Baccalauréat sciences et technologies industrielles en génie électrotechnique
+      Organisation: Éducation Nationnal Francaise
+      Website: https://fr.wikipedia.org/wiki/Baccalaur%C3%A9at_sciences_et_technologies_industrielles_en_g%C3%A9nie_%C3%A9lectrotechnique
+      StartDate: Septembre 2005
+      EndDate: Juin 2007
+      Qualification: Baccalauréat sciences et technologies industrielles
+      projets:
+        - Conception de malette pour la commande d'un robot demineur
+
+    - Name:  Brevet d'études professionnelles - Systèmes électroniques numériques
+      Organisation: Éducation Nationnal Francaise
+      Website: https://fr.wikipedia.org/wiki/Baccalaur%C3%A9at_sciences_et_technologies_industrielles_en_g%C3%A9nie_%C3%A9lectrotechnique
+      StartDate: Septembre 2003
+      EndDate: Juin 2005
+      Qualification: Brevet d'études professionnelles
+      projets:
+        - Conception d'un system de sere Automatiser
+
+
+ProfessionalTraining:
+  Title: Formation professionnelles
+  Icon: fas fa-road
+  Sections:
+    - Name: Kubernetes Application Developer
+      Organisation: Zenika
+      Website: https://training.zenika.com/en/training/kubernetes/description
+      StartDate: Septembre 2018
+      EndDate: ""
+      Qualification: Certification participation 
+
+    - Name: Qwicklabs
+      Organisation: Google Cloud Skills Boost
+      Website: https://googlecloud.qwiklabs.com/public_profiles/3cdd08f5-111c-4f1b-86a4-0bd32e85bb27
+      StartDate: ""
+      EndDate: ""
+      Qualification: Badges
+
+
+Languages:
+  Title: Langages
+  Icon: fas fa-language
+  Items:
+    - Francais (Maternel)
+    - Anglais (Professionnel Basic)
+
+Interests:
+  Title: Interés
+  Icon: fas fa-chess
+  Items:
+    - Technologie
+    - Golf
+    - Chien
+    - Series 
+    - Film
+

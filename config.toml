@@ -1,0 +1,135 @@
+ignoreFiles = ["content/portfolio/\\.*","content/product/\\.*","content/sketch/\\.*","content/homepage/\\.*","content/post/\\.*","content/\\.*"] # disable example pages as this is a single page
+baseURL = "https://deschamps.xyz"
+title = "Arthur Deschamps - CV"
+languageCode = "fr"
+DefaultContentLanguage = "fr"
+enableInlineShortcodes = true
+ignoreErrors = ["error-remote-getjson"]
+
+removePathAccents = true
+
+# Theme specific examples
+author = "Arthur Deschamps"
+copyright = "Arthur Deschamps"
+# googleAnalytics = "UA-123-45"
+enableRobotsTXT = true
+pygmentsCodeFences = true
+canonifyurls = true
+paginate = 6
+theme="flex-bp-hugo-cv"
+
+[sitemap]
+    changefreq = "weekly"
+    priority = 0.5
+
+[permalinks]
+    posts = "/:year/:month/:slug/"
+    post = "/:year/:month/:slug/"
+    pages = "/:slug/"
+    page = "/:slug/"
+
+[Author]  
+  name = "Arthur Deschamps"
+
+[params]
+  description = "Text about the site"
+  customDateFormat = "01/2006" # "02.01.2006"
+  # js=["/js/test_site.js"]
+  # css=["/css/test_site.css"]
+  # csscdn=["https://fonts.googleapis.com/css?family=Concert+One|Roboto&display=swap"]
+
+
+[languages]
+  [languages.fr]
+    languageName = "FR"
+    title = "CV"
+    weight = 1
+    [languages.fr.params]
+  [languages.en]
+    languageName = "EN"
+    title = "Resume"
+    weight = 2
+    [languages.en.params]
+
+
+# Sets Social Media icons to appear and link to your account. Value should be your
+# username unless otherwise noted.
+# Code from https://themes.gohugo.io/future-imperfect/ theme
+[social]
+  # Coding Communities
+  github           = "arthtux"
+  gitlab           = "arthtux"
+  stackoverflow    = "" # User Number
+  bitbucket        = "arthtux"
+  jsfiddle         = ""
+  codepen          = ""
+  # Visual Art Communities
+  deviantart       = ""
+  flickr           = ""
+  behance          = ""
+  dribbble         = ""
+  # Publishing Communities
+  wordpress        = ""
+  medium           = ""
+  # Professional/Business Oriented Communities
+  linkedin         = "arthur.deschamps"
+  linkedin_company = ""
+  foursquare       = ""
+  xing             = ""
+  slideshare       = ""
+  # Social Networks
+  facebook         = ""
+  googleplus       = ""
+  reddit           = ""
+  quora            = ""
+  youtube          = "" 
+  vimeo            = ""
+  whatsapp         = ""
+  instagram        = ""
+  tumblr           = ""
+  twitter          = "arthtux"
+  skype            = ""
+  snapchat         = ""
+  pinterest        = ""
+  telegram         = ""
+  discord          = ""
+  # Email
+  email            = "descharthur@gmail.com"
+
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+[taxonomies]
+
+[privacy]
+
+  [privacy.vimeo]
+    disabled = true
+    simple = true
+
+  [privacy.twitter]
+    disabled = true
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = true
+    simple = true
+
+  [privacy.youtube]
+    disabled = true
+    privacyEnhanced = true
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true
