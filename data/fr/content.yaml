@@ -12,7 +12,7 @@ PersonalData:
       Name: Adresse
       Value: 29 Rue le Renfort J2W 3C7 Saint-Jean-sur-Richelieu, QC, CANADA
     - Icon: fas fa-mobile-alt
-      Name: Mobile
+      Name: Cellulaire
       Value: +1 438 390-2305
     - Icon: fas fa-envelope
       Name: Courriel
