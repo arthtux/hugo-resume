@@ -1,5 +1,5 @@
 PersonalData:
-  Title: Profile
+  Title: Profil
   Icon: fas fa-user
   Suffix: "- CV"
   Name: Arthur Deschamps
@@ -253,7 +253,7 @@ Languages:
     - Anglais (Professionnel Basic)
 
 Interests:
-  Title: Interés
+  Title: Interéts
   Icon: fas fa-chess
   Items:
     - Technologie
