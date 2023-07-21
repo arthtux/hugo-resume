@@ -32,7 +32,7 @@ theme="flex-bp-hugo-cv"
   name = "Arthur Deschamps"
 
 [params]
-  description = "Text about the site"
+  description = "CV de Arthur Deschamps"
   customDateFormat = "01/2006" # "02.01.2006"
   # js=["/js/test_site.js"]
   # css=["/css/test_site.css"]
@@ -42,7 +42,7 @@ theme="flex-bp-hugo-cv"
 [languages]
   [languages.fr]
     languageName = "FR"
-    title = "CV"
+    title = "CV - Arthur Deschamps"
     weight = 1
     [languages.fr.params]
   #[languages.en]
