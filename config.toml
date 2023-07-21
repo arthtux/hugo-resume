@@ -1,5 +1,5 @@
 ignoreFiles = ["content/portfolio/\\.*","content/product/\\.*","content/sketch/\\.*","content/homepage/\\.*","content/post/\\.*","content/\\.*"] # disable example pages as this is a single page
-baseURL = "https://deschamps.xyz"
+#baseURL = "https://deschamps.xyz"
 title = "Arthur Deschamps - CV"
 languageCode = "fr"
 DefaultContentLanguage = "fr"
@@ -45,11 +45,11 @@ theme="flex-bp-hugo-cv"
     title = "CV"
     weight = 1
     [languages.fr.params]
-  [languages.en]
-    languageName = "EN"
-    title = "Resume"
-    weight = 2
-    [languages.en.params]
+  #[languages.en]
+  #  languageName = "EN"
+  #  title = "Resume"
+  #  weight = 2
+  #  [languages.en.params]
 
 
 # Sets Social Media icons to appear and link to your account. Value should be your

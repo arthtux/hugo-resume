@@ -1,6 +1,7 @@
 {{ $photoimg := resources.Get "photo.jpg" }}
 {{ $alt := "Photo" }}
 
+
 {{ if gt $photoimg.Width 320 }}
 {{ $image := $photoimg.Resize "320x" }}
 <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="{{ $alt }}" />
@@ -22,8 +23,8 @@
         {{ $data := (.Scratch.Get "content") }}
         <li><a href="#section-{{ $data.PersonalData.Title | urlize }}"><i class="{{ $data.PersonalData.Icon }}"></i> {{
                 $data.PersonalData.Title }}</a></li>
-        <li><a href="#section-{{ $data.BriefProfile.Title | urlize }}"><i class="{{ $data.BriefProfile.Icon }}"></i> {{
-                $data.BriefProfile.Title }}</a></li>
+        <!--<li><a href="#section-{{ $data.BriefProfile.Title | urlize }}"><i class="{{ $data.BriefProfile.Icon }}"></i> {{
+                $data.BriefProfile.Title }}</a></li>-->
         <li><a href="#section-{{ $data.Experience.Title | urlize }}"><i class="{{ $data.Experience.Icon }}"></i> {{
                 $data.Experience.Title }}</a></li>
         <li><a href="#section-{{ $data.AcademicEducation.Title | urlize }}"><i

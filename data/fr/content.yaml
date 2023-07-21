@@ -24,23 +24,23 @@ PersonalData:
       Name: Age
       Value: 35 ans
 
-BriefProfile:
-  Title: A propos
-  Icon: fas fa-th-list
-  Sections:
-    - Name: Strengths
-      Items:
-        - Strong bite
-        - Fast sprinter
-        - Great jumping power
-    - Name: Skills
-      Items:
-        - Rescue people
-        - Eating
-    - Name: Certifications
-      Items:
-        - Bodyguard
-        - Security Officer
+#BriefProfile:
+#  Title: A propos
+#  Icon: fas fa-th-list
+  # Sections:
+    # - Name: Strengths
+      # Items:
+        # - Strong bite
+        # - Fast sprinter
+        # - Great jumping power
+    # - Name: Skills
+      # Items:
+        # - Rescue people
+        # - Eating
+    # - Name: Certifications
+      # Items:
+        # - Bodyguard
+        # - Security Officer
 
 Experience:
   Title: Expériences
