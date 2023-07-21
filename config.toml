@@ -11,7 +11,7 @@ removePathAccents = true
 # Theme specific examples
 author = "Arthur Deschamps"
 copyright = "Arthur Deschamps"
-# googleAnalytics = "UA-123-45"
+googleAnalytics = "G-L4XB24PJNG"
 enableRobotsTXT = true
 pygmentsCodeFences = true
 canonifyurls = true
