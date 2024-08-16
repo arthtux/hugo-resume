@@ -22,7 +22,7 @@ PersonalData:
       Value: https://deschamps.xyz
     - Icon: far fa-calendar-alt
       Name: Age
-      Value: 35 ans
+      Value: 36 ans
 
 #BriefProfile:
 #  Title: A propos
@@ -66,7 +66,7 @@ Experience:
         - Formation des différents Pays Decathlon United pour leur site de E-Commerce.
         - Participation a la mise en place de l’informatique pour les Magasin physique.
         - Referent Informatique pour le Magasin de Québec.
-      Skills: ["Terraform", "Github-Action", "Github", "SpringBoot", "Datadog", "FluxCD", "Network", "Google Cloud Platform", "Amazon Web Services", "NodeJS", "Docker", "Colima", "CentOS", "Kubernetes", "GKE", "Gnu/Linux", "MacOS", "Redis", "PostgresSQL", "PHP", "MySQL", "CloudFlare", "Imperva", "Kafka"]
+      Skills: ["Terraform", "Github-Action", "Github", "SpringBoot", "Datadog", "FluxCD", "Network", "Google Cloud Platform", "Amazon Web Services", "NodeJS", "Docker", "Colima", "CentOS", "Kubernetes", "GKE", "Gnu/Linux", "MacOS", "Redis", "PostgresSQL", "PHP", "MySQL", "CloudFlare", "Imperva", "Kafka", "NextJS", "OAuth2", "Prestashop"]
 
     - Name: Lead DevOps
       Empolyer: Koolicar/OpenFleet
