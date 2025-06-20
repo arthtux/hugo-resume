@@ -3,7 +3,7 @@ PersonalData:
   Icon: fas fa-user
   Suffix: "- CV"
   Name: Arthur Deschamps
-  CurrentWorkplace: Lead DevOps chez Decathlon Canada
+  CurrentWorkplace: Senior Devops chez Connect&GO
   Contacts:
     - Icon: fas fa-user
       Name: Nom
@@ -16,7 +16,7 @@ PersonalData:
       Value: +1 438 390-2305
     - Icon: fas fa-envelope
       Name: Courriel
-      Value: descharthur@gmail.com
+      Value: arthur@deschamps.xyz
     - Icon: fas fa-globe
       Name: Site Web
       Value: https://deschamps.xyz
@@ -46,6 +46,18 @@ Experience:
   Title: Expériences
   Icon: fas fa-briefcase
   Sections:
+    - Name: Senior DevOps
+      Empolyer: Connect&GO
+      Logo: logos/connectgo.webp
+      Website: https://www.connectgo.com/
+      StartDate: Juin 2025
+      EndDate: Today
+      Details:
+        - Construction d'une plateforme Cloud pour le compte de Connect&GO.
+        - Mise en place d'une infrastructure Cloud pour le compte de Connect&GO.
+        - Migration de l'infrastructure existante vers Kubernetes.
+        - Optimisation de l'observabilité.
+      Skills: ["Terraform", "Gitlab", "Gitlab-ci", "Datadog", "FluxCD", "Network", "Google Cloud Platform", "Amazon Web Services", "NodeJS", "Docker", "Colima", "Ubuntu", "Kubernetes", "EKS", "Gnu/Linux", "MacOS", "Redis", "Valkey", "PostgresSQL", "PHP", "MySQL", "Cloudflare"]
     - Name: Lead DevOps 
       Empolyer: Decathlon Canada
       Logo: logos/decathlon.webp
